@@ -124,6 +124,12 @@ body {
     background-color: #E1E1E1;
 }
 
+.habilidades p {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
 .habilidades h4 {
     text-align: center;
 }
