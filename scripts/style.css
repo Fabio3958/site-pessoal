@@ -37,3 +37,32 @@ body {
 .navega a:hover {
     color: #202020;
 }
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 50px;
+    width: 600px;
+}
+
+.apresentacao h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+.apresentacao p {
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.apresentacao button {
+    width: 208px;
+    height: 47px;
+    left: 148px;
+    top: 477px;
+    background: #787878;
+    border-radius: 2px;
+}
