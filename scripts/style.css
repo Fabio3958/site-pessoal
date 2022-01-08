@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: #E1E1E1;
     margin-left: 100px;
     margin-right: 100px;
     border: solid #c4c4c4 0.2px;
@@ -74,13 +74,13 @@ body {
     border-radius: 2px;
 }
 
-.imagem {
+.imagemPerfil {
     padding: 50px;
     margin-left: 50px;
     margin-top: 50px;
 }
 
-.imagem img {
+.imagemPerfil img {
     border-radius: 100%;
     border: solid #c4c4c4 5px;
     width: 250px;
@@ -93,7 +93,8 @@ body {
 
 .conhecimento {
     display: flex;
-    border: solid #c4c4c4 0.5px;
+    border-top: solid #c4c4c4 0.5px;
+    border-bottom: solid #c4c4c4 0.5px;
     justify-content: space-around;
 }
 
@@ -119,7 +120,7 @@ body {
 
 .habilidades {
     margin-left: 10px;
-    border: solid #c4c4c4 0.5px;
+    background-color: #E1E1E1;
 }
 
 .habilidades h4 {
@@ -129,4 +130,55 @@ body {
 .barras {
     width: 340.25px;
     height: 20px;
+}
+
+.tituloTrabalhos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.trabalhos {
+    border-bottom: solid #c4c4c4 0.5px;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.itemProjeto img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.itemProjeto {
+    display: flex;
+    padding: 10px;
+}
+
+.itemProjeto a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.conteudoItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.conteudoItem h3 {
+    margin-bottom: 20px;
+}
+
+.linguagens {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.linguagens img {
+    width: 30px;
 }
