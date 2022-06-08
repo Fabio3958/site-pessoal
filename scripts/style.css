@@ -75,6 +75,13 @@ body {
     border-radius: 2px;
 }
 
+.linkDownload {
+    width: 208px;
+    height: 47px;
+    left: 148px;
+    top: 477px;
+}
+
 .imagemPerfil {
     padding: 50px;
     margin-left: 50px;
@@ -104,9 +111,22 @@ body {
     padding: 50px;
     width: 45%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 40px;
+}
+
+.ladoEsquerdo img {
+    width: 45px;
+}
+
+.ladoDireito img {
+    width: 45px;
+}
+
+.linguagemHabilidade {
+    display: flex;
+    justify-content: center;
 }
 
 .ladoDireito {
@@ -114,7 +134,7 @@ body {
     padding: 50px;
     width: 45%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 40px;
 }
