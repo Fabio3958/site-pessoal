@@ -8,8 +8,9 @@
 }
 
 body {
+    
     background-color: rgb(15, 26, 35);
-
+    font-size: 22px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,6 +51,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+
+
 }
 
 .apresentacao {
@@ -197,11 +200,18 @@ footer {
         justify-content: center;
     }
 
+    .secaoApresentacao
+    {
+        height: 80vh;
+    }
+
+
     .secaoCertificados
     {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 80vh;
     }
 
     .certificado
@@ -215,35 +225,11 @@ footer {
         padding-top: 0;
     }
 
-}
-
-@media (max-width: 650px)
-{
-
-    body
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .secaoCertificados
+    .trabalhos
     {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 80vh;
     }
-
-    .certificado
-    {
-        width: 85%;
-        padding: 20px;
-    }
-
-    .certificadosDestaque
-    {
-        padding-top: 0;
-    }
-
 }
