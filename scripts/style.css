@@ -98,8 +98,11 @@ body {
 
 .secaoCertificados
 {
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .certificadosDestaque
@@ -130,14 +133,13 @@ body {
     text-align: center;
 }
 
-.tituloTrabalhos {
-    text-align: center;
-    padding-top: 30px;
-}
-
 .trabalhos {
+
+    margin-top: 60px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
 }
 
 .projeto {
@@ -202,7 +204,7 @@ footer {
 
     .secaoApresentacao
     {
-        height: 80vh;
+        height: 60vh;
     }
 
 
@@ -211,7 +213,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 80vh;
+        height: 60vh;
     }
 
     .certificado
@@ -227,9 +229,9 @@ footer {
 
     .trabalhos
     {
+        padding-top: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 80vh;
     }
 }
