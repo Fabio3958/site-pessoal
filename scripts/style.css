@@ -50,9 +50,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
-
-
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid rgb(20, 43, 55)
 }
 
 .apresentacao {
@@ -62,9 +61,8 @@ body {
 }
 
 .apresentacao h1 {
-    margin-top: 50px;
-    margin-bottom: 30px;
     line-height: 1.5;
+    margin-top: 50px;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -80,7 +78,7 @@ body {
 .apresentacao button {
     width: 120%;
     height: 40px;
-    background: #787878;
+    background: rgb(42, 25, 200);
     border-radius: 15px;
 }
 
@@ -89,26 +87,14 @@ body {
     justify-content: center;
 }
 
-.tituloCertificados
-{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
 .secaoCertificados
 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
-}
-
-.certificadosDestaque
-{
-    display: flex;
-    padding: 30px;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid rgb(20, 43, 55);
+    padding-top: 50px;
 }
 
 .certificado
@@ -135,17 +121,19 @@ body {
 
 .trabalhos {
 
-    margin-top: 100px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid rgb(20, 43, 55)
+
 }
 
 .projeto {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
 }
 
 .itemProjeto img {
@@ -155,16 +143,15 @@ body {
 
 .itemProjeto {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
-}
-
-.itemProjeto a {
-    color: #000000;
 }
 
 .conteudoItem {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
 }
 
@@ -172,23 +159,11 @@ body {
     margin-bottom: 20px;
 }
 
-.linguagens {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-}
-
-.linguagens img {
-    width: 30px;
-}
-
 footer {
     position: relative;
     text-align: center;
     width: 100%;
     line-height: 2;
-    margin-top: 100px
 }
 
 @media (max-width: 1080px)
