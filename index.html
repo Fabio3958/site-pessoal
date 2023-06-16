@@ -1,156 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="scripts/style.css">
-    <title>Fabio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<body >
 
-    <header>
-        <div class="retangulo1">
+<body>
 
+    <div class="firstPart">
+        <div class="container">
+            <h1>Fábio Evangelista</h1>
+            <h2>Web Developer</h2>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/fabioevangelista/" target="_blank">
+                    <img src="/assets/icons/linkedinIcon.svg" alt="linkedin Icon" />
+                </a>
+                <a href="https://github.com/Fabio3958" target="_blank">
+                    <img src="/assets/icons/githubIcon.svg" alt="Github Icon" />
+                </a>
+                <a href="assets/docs/cv-fabio.pdf" download="">
+                    <img src="/assets/icons/resumeIcon.svg" alt="Resume Icon">
+                </a>
+            </div>
         </div>
-        <div class="retangulo2">
+    </div>
 
-        </div>
-
-        <nav class="navega">
-
-            <a href="https://github.com/Fabio3958" target="_blank">
-                <svg width="40" height="40" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15 0C6.7175 0 0 6.71625 0 15C0 21.6275 4.2975 27.25 10.2587 29.2337C11.0075 29.3725 11.25 28.9075 11.25 28.5125V25.72C7.0775 26.6275 6.20875 23.95 6.20875 23.95C5.52625 22.2162 4.5425 21.755 4.5425 21.755C3.18125 20.8237 4.64625 20.8438 4.64625 20.8438C6.1525 20.9487 6.945 22.39 6.945 22.39C8.2825 24.6825 10.4538 24.02 11.31 23.6362C11.4438 22.6675 11.8325 22.005 12.2625 21.6313C8.93125 21.25 5.42875 19.9637 5.42875 14.2175C5.42875 12.5787 6.015 11.2413 6.97375 10.1912C6.81875 9.8125 6.305 8.28625 7.12 6.22125C7.12 6.22125 8.38 5.81875 11.2463 7.75875C12.4425 7.42625 13.725 7.26 15 7.25375C16.275 7.26 17.5588 7.42625 18.7575 7.75875C21.6213 5.81875 22.8787 6.22125 22.8787 6.22125C23.695 8.2875 23.1812 9.81375 23.0262 10.1912C23.9887 11.2413 24.57 12.58 24.57 14.2175C24.57 19.9788 21.0613 21.2475 17.7213 21.6187C18.2588 22.0837 18.75 22.9963 18.75 24.3962V28.5125C18.75 28.9112 18.99 29.38 19.7512 29.2325C25.7075 27.2463 30 21.625 30 15C30 6.71625 23.2838 0 15 0Z" fill="#21243D"/>
-                </svg>
-            </a>
-
-            <a href="https://www.linkedin.com/in/fabio-evangelista-7b29331b1/" target="_blank">
-                <svg width="40" height="40" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25.6055 0H4.39453C1.97159 0 0 1.97159 0 4.39453V25.6055C0 28.0284 1.97159 30 4.39453 30H25.6055C28.0284 30 30 28.0284 30 25.6055V4.39453C30 1.97159 28.0284 0 25.6055 0ZM10.6055 23.7891H7.08984V11.4844H10.6055V23.7891ZM10.6055 9.72656H7.08984V6.21094H10.6055V9.72656ZM22.9102 23.7891H19.3945V16.7578C19.3945 15.7887 18.6058 15 17.6367 15C16.6676 15 15.8789 15.7887 15.8789 16.7578V23.7891H12.3633V11.4844H15.8789V12.147C16.7999 11.8607 17.3982 11.4844 18.5156 11.4844C20.8999 11.4869 22.9102 13.6258 22.9102 16.1536V23.7891Z" fill="#21243D"/>
-                </svg>
-            </a>
-        </nav>
-    </header>
-
-    <section class="secaoApresentacao">
-
-        <div class="apresentacao">
-
-            <h1>
-                Fábio Roberto Evangelista
-            </h1>
-
+    <div class="container">
+        <div class="secondPart">
+            <h2>O que eu faço</h2>
             <p>
-                Desenvolvedor em busca da primeira oportunidade. Tenho bons conhecimentos em Java e Spring e estudo diariamente para melhorar. </p>
+                Graduado em análise e desenvolvimento de sistemas,
+                estudo e desenvolvo projetos com Java,
+                Javascript, Html, css e bancos de dados.
+            </p>
+        </div>
+    </div>
 
-            <div class="linkDownload">
-                <a href="docs/curriculo-fabio.pdf" download="curriculo-fabio.pdf">
-                    <button>Download do currículo!</button>
+    <div class="container">
+        <h2>Projetos em destaque</h2>
+
+        <div class="projects">
+            <div class="project">
+                <a href="https://fabio3958.github.io/js-developer-pokedex" target="_blank">
+                    <h3>Pokedex</h3>
+                    <img src="/assets/images/pokedexImage.png" alt="Pokedex project image">
+                    <p>
+                        Site responsivo desenvolvido com Html, Css
+                        e Javascript. Com Javascript, a PokeApi foi
+                        consumida e seus dados tratados e mostrados
+                        para o usuário.
+                    </p>
                 </a>
             </div>
 
-
-        </div>
-
-
-    </section>
-
-
-    <section class="secaoCertificados">
-        <h2 class="tituloCertificados">Certificados em destaque</h2>
-
-        <div class="certificadosDestaque"></div>
-
-            <div class="certificado">
-                
-                <a class="certificadoLink" target="_blank" href="https://www.efset.org/cert/cpGa7L">
-                    <img src="images/EFCertificate.png" alt="Certificado Education First">
-                    <h4>EF SET Certificate 73/100 (C2 Proficient)</h4>
-                </a>
-
-            </div>
-
-            <div class="certificado">
-                
-                <a class="certificadoLink" target="_blank" href="https://www.credly.com/badges/e3714a9e-1767-4673-b853-a34a9d20fb3f?source=linked_in_profile">
-                    <img src="images/ScrumCertificate.png" alt="Certificado Scrum Fundation">
-                    <h4>Scrum Foundation Professional Certificate - SFPC™</h4>
+            <div class="project">
+                <a href="https://github.com/Fabio3958/codeblog" target="_blank">
+                    <h3>Codeblog</h3>
+                    <img src="/assets/images/blogImage.jpg" alt="Blog image">
+                    <p>
+                        Projeto desenvolvido com Java, Spring e Thymeleaf.
+                        Conectado com PostgreSQL, o usuário é capaz de
+                        fazer todas as operações CRUD. Também foi implementado
+                        um sistema de segurança com Spring Security.
+                    </p>
                 </a>
             </div>
+        </div>
+    </div>
 
-            <div class="certificado">
-                
-                <a class="certificadoLink" target="_blank" href="https://www.dio.me/certificate/41787E3F/share">
-                    <img src="images/dioCert.png" alt="Certificado Bootcamp na Dio">
-                    <h4>Orange Tech + | BackEnd</h4>
+    <div class="container">
+        <h2>Certificados em destaque</h2>
+        <div class="certificates">
+
+            <div class="certificate">
+                <a href="https://www.dio.me/certificate/41787E3F/share" target="_blank">
+                    <h3>Orange Tech + backend</h3>
+                    <img src="/assets/images/OrangeTechCertificate.jpg" alt="Orange Tech + certificate">
+                    <p>
+                        Bootcamp realizado na plataforma DIO em parceria com
+                        o banco Inter. O foco deste bootcamp foi Java e Spring
+                        e pude aprender muito sobre desenvolvimento para internet
+                        e programação orientada a objetos. Também pude estudar sobre
+                        soft skills.
+                    </p>
                 </a>
             </div>
-        
+
+            <div class="certificate">
+                <a href="https://www.credly.com/badges/e3714a9e-1767-4673-b
+                853-a34a9d20fb3f?source=linked_in_profile" target="_blank">
+
+                    <h3>Scrum Foundation Professional Certificate - SFPC™</h3>
+                    <img src="/assets/images/ScrumCertificate.png" alt="Scrum Certificate">
+                    <p>
+                        Este certificado atesta meu conhecimento sobre o framework Scrum.
+                    </p>
+
+                </a>
+            </div>
         </div>
+    </div>
 
-    </section>
-
-
-
-    <section class="trabalhos">
-
-        <h2 class="tituloTrabalhos">
-            Trabalhos em destaque
-        </h2>
-        <div class="projeto">
-
-
-            <ul>
-                <div class="itemProjeto">
-
-                    <a href="https://github.com/Fabio3958/estudos" target="_blank">
-                        <img src="images/estudos.jpg" alt="estudos">
-                    </a>
-                    <div class="conteudoItem">
-                        <a href="https://github.com/Fabio3958/estudos" target="_blank">
-                            <h3>
-                                Estudos
-                            </h3>
-                        </a>
-                        <p>
-                            Repositório exclusivo para a postagem de exercícios de lógica e testes de novos conhecimentos em java.
-                        </p>
-
-                    </div>
-                </div>
-            </ul>
-
-            <ul>
-                <div class="itemProjeto">
-
-                    <a href="https://github.com/Fabio3958/certificados-dio" target="_blank">
-                        <img src="images/portfolio.png" alt="certificados">
-                    </a>
-                    <div class="conteudoItem">
-                        <a href="https://github.com/Fabio3958/certificados-dio" target="_blank">
-                            <h3>
-                                Certificados da DIO
-                            </h3>
-                        </a>
-                        <p>
-                            Aplicação feita em java, Springboot e thymeleaf para postar e mostrar certificados obtidos através da DIO.
-                        </p>
-
-                    </div>
-                </div>
-            </ul>
+    <div class="container">
+        <h2>Contato</h2>
+        <div class="contacts">
+            <span>Telefone (whatsapp): (15)99164-9250</span>
+            <span>Email: fabioevangelista_@hotmail.com</span>
         </div>
-    </section>
-
-    <footer>
-
-        <div>
-            <p>Fábio R. Evangelista 2023</p>
-        </div>
-
-
-    </footer>
+    </div>
 </body>
+
 
 </html>
