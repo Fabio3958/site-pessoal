@@ -5,10 +5,14 @@
     color: #fff
 }
 
-
 body{
     background-color: #999393;
+}
+
+.content{
     color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
 .firstPart{
@@ -75,4 +79,42 @@ body{
 
 .contacts{
     font-size: 1.2rem;
+}
+
+@media (min-width: 550px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        
+    }
+
+    .container h2{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .container h3{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .container p{
+        font-size: 1.5rem;
+    }
+
+    .projects .project img{
+        width: 80%;
+    }
+
+    .certificates .certificate img{
+        width: 80%;
+    }
+
+    .contacts{
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
 }
