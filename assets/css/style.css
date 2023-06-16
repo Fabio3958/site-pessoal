@@ -44,7 +44,7 @@ body{
 .secondPart{
     padding: 0;
     margin: 0;
-    height: 50vh;
+    height: 30vh;
 }
 
 .container h2{
@@ -78,6 +78,8 @@ body{
 }
 
 .contacts{
+    display: flex;
+    flex-direction: column;
     font-size: 1.2rem;
 }
 
@@ -87,7 +89,12 @@ body{
         flex-direction: column;
         text-align: center;
         align-content: center;
-        
+    }
+
+    .firstPart{
+        width: 100%;
+        justify-content: center;
+        margin: 5rem 0;
     }
 
     .container h2{
@@ -114,7 +121,48 @@ body{
 
     .contacts{
         width: 100%;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 800px){
+
+    .projects .project img{
+        width: 70%;
+    }
+
+    .certificates .certificate img{
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .content p{
+        font-size: 2rem;
+    }
+
+    .projects .project img{
+        width: 60%;
+    }
+
+    .certificates .certificate img{
+        width: 60%;
+    }
+
+    .firstPart h1{
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .projects .project img{
+        width: 50%;
+    }
+
+    .certificates .certificate img{
+        width: 50%;
     }
 
 }
